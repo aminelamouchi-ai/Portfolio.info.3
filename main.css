@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Playwrite+HR+Lijeva:wght@300&display=swap');
+
+*{
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: url(img/cover.jpg);
+}
+
+header{
+   position: fixed;
+   background-color: black;
+   top: 0;
+   left: 0;
+   right: 0;
+   border-bottom: 1px solid #00d475;
+  }
+header nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+header nav .name{
+  color: blanchedalmond;
+  font-weight: bolder;
+  font-family: "Merienda", cursive;
+  }
+header nav .name span{
+  color: white;
+  }
+header nav .links{
+  display: flex;
+  }
+header nav .links li a{
+  color: blanchedalmond;
+  display: flex;
+  margin-right: 20px
+  }
+header nav .links li a:hover{
+  color: #00d475;
+  }
+  header nav .Resuax_sociaux{
+    display: flex; 
+    list-style: none;
+  }
+header nav .Resuax_sociaux li a i{
+    color: blanchedalmond;
+    font-size: 20px;
+    margin-left: 15px;
+  }
+ header nav .Resuax_sociaux li a i:hover{
+    color:  #00d475;
+  }
+
+.amine {
+    display: flex;
+    margin: auto;
+    margin-top: 90px;
+  }
+.amine .texte{
+  text-align: left;
+  margin: auto;
+  margin-left: 40px; 
+}
+.amine .texte h1 {
+  text-align: left;
+  margin: auto;
+  margin-left: 1px; 
+  font-size: 20px;
+}
+.amine .texte h1 span{
+  text-align: left;
+  margin: auto;
+  margin-left: 1px; 
+  color: #00d475;
+  font-size: 20px;
+}
+.amine .texte p span {
+  font-size: 30px;
+  color: #00d475;
+  
+}
+.amine .texte p{
+  color:#c8c6c6;
+  font-size: 18px;
+
+
+}
+.amine .texte h1{
+  color: white;
+  font-size: 50px;
+}
+
+.amine .texte h2{
+  text-align: center;
+  font-style: italic;
+  color: #00d475;
+}
+.parco {
+ 
+  color: #c8c6c6; 
+  padding: 20px; 
+  text-align: left;
+  margin-top: 90px;
+  
+}
+.parco .bac {
+  display: flex;
+  gap: 100px;
+}
+ .h1{
+  color: white;
+  font-size: 40px;
+}
+ .h2{
+  color: #00d475;
+  font-size: 30px;
+
+
+}
+
+
+.competences{
+  padding: 20px;
+  color: #c8c6c6;
+  margin-top: 90px;
+}
+
+
+th, td {
+  border: 2px solid white; 
+  padding: 10px;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: 50%;
+  text-align: center;
+}
+
+.phot{
+  display: flex;
+  text-align: center;
+}
+.avenir{
+  margin-top: 75px;
+  color:#c8c6c6;
+  padding: 20px; 
+}
+.contact{
+  padding: 20px;
+  color: #c8c6c6;
+  margin-top: 90px;
+  text-align: center;
+}
+.contact-links ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+.contact-links ul li{
+  display: inline-block;
+  margin: 20px;
+}
+.FIN {
+  font-style: italic;
+  color: white;
+  font-size: 40px;
+}
+.contact-links ul li a i {
+  text-align: center;
+  color:blanchedalmond; 
+  font-size: 50px;
+}
+.contact-links ul li a i:hover {
+  color: #007a50;
+}
+
+.mail-contact a{
+  text-align: center;
+  color:blanchedalmond;
+  list-style-type: none;
+  font-size: 20px;
+}
+.mail-contact a:hover{
+  color: #007a50;
+}
+.avenir .INFO{
+  color: white;
+}
